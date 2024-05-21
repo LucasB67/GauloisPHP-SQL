@@ -27,7 +27,6 @@ $personnages = $personnagesStatement->fetchAll();
 
 echo "<h1>".$village['nom_lieu']."</h1><ul>";
 foreach ($personnages as $personnage) {
-
     echo "<li>".$personnage['nom_personnage']."</li>";
     }
 echo "</ul>"
